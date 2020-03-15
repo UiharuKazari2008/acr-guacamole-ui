@@ -1,0 +1,172 @@
+body {
+	/* background-image: url(app/ext/nyti/images/bg-1-light.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.menu-dropdown .menu-contents li a:hover {
+	    background-color: #ffab61;
+}
+
+.recent-connections .connection:hover {
+    background: radial-gradient(transparent, #ff6a00);
+}
+.list-item:not(.selected) .caption:hover {
+        background: linear-gradient(45deg, #ff8d00, transparent);
+}
+
+.menu-dropdown.open, .menu-dropdown.open:hover {
+    background: #ff7905;
+}
+
+.header {
+    border-bottom: 1px solid rgba(45, 45, 45, 0.125);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+    background: rgb(0, 0, 0);
+    color: white;
+	margin-bottom: 0!important;
+	margin-top: 0!important;
+}
+
+.header .filter input {
+    border-radius: 0.7em!important;
+	background-color: #fffffff7;
+}
+
+label.ng-binding {
+    color: black
+}
+
+.connection.ng-scope a {
+    color: white;
+}
+
+
+div.recent-connections div.connection {
+    border-color: #ff99003d;
+    border-style: solid;
+    background-color: #1b1000;
+}
+
+.recent-connections {
+    background-color: black;
+    margin: 0 0 0 0!important;
+}
+
+.notification .title-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 1px 2px rgba(76, 76, 76, 0.125);
+    background: rgba(255, 97, 0, 0.51);
+}
+
+.notification {
+    background: rgba(0, 0, 0, 0.84);
+    color: white;
+}
+
+.notification.error {
+    background: #400;
+}
+
+.login-ui .login-dialog {
+	background-color: #000000ad!important;
+	backdrop-filter: blur(20px);
+}
+
+#filesystem-menu .header.breadcrumbs .breadcrumb {
+    color: black;
+}
+
+.login-ui .login-dialog .logo {
+    background-image: url('app/ext/nyti/images/logo-1.png');
+	width: 12em;
+	height: 2.3em;
+	-webkit-background-size: 12em auto;
+	margin: auto auto 1em auto;}
+
+.login-ui.continuation div.login-dialog {
+	color: white;
+}
+
+.login-ui div.login-dialog-middle {
+    height: 100%;
+	text-align: -webkit-right!important;
+}
+
+.shown .status-middle .notification {
+    visibility: visible;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.94)!important;
+}
+
+button.ng-binding.ng-scope.logout.button {
+    background-color: #860101;
+}
+
+.status-outer {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+.login-ui div.login-dialog {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.94)!important;
+	/* border-radius: 0.5em;
+	vertical-align: middle; */
+	max-width: 4.5in;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	height: 100%
+}
+
+form.login-form.ng-pristine.ng-valid {
+    text-align: left;
+    color: #423a3a;
+}
+
+input[type=checkbox], input[type=number], input[type=text], input[type=email], input[type=radio], label, textarea {
+    -webkit-tap-highlight-color: rgba(224, 159, 41, 0.5);
+}
+
+.login-ui .login-dialog .version .app-name {
+	text-transform: none;
+	color: white;
+	display: none!important;
+}
+
+.login-ui .login-dialog .version {
+    display: none!important;
+}
+
+.login-ui .login-fields .labeled-field input {
+	background: rgba(255, 255, 255, 0.1)!important;
+	border: 1px solid rgba(205, 115, 46, 0.25)!important;
+	color: white;
+}
+
+.user-menu .menu-dropdown .menu-title {
+	background-image: url(app/ext/nyti/images/guac-user.png);
+}
+
+.menu-dropdown .menu-indicator {
+    background-image: url(app/ext/nyti/images/down.png);
+}
+
+div.login-ui {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(app/ext/nyti/images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.login-ui .login-dialog .buttons input[type="submit"] {
+	background-color: #aa3c00!important;
+	border: 1px solid rgba(255, 231, 4, 0.25)!important;
+	border-radius: 0.2em;
+	text-shadow: none!important;
+}

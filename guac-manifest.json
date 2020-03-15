@@ -1,0 +1,33 @@
+{
+	"guacamoleVersion" : "*",
+	"name" : "NYTI Branding",
+	"smallIcon" : "images/logo-64.png",
+	"largeIcon"	: "images/logo-144.png",
+	"namespace" : "nyti",
+	"translations" : [
+		"translations/en.json"
+	],
+	
+	"css" : [
+        "css/login-override.css"
+	],
+			
+	"html" : [
+        "html/extra.html"
+	],
+
+	"resources" : {
+		"images/logo.png" : "image/png",
+		"images/guac-user.png" : "image/png",
+		"images/down.png" : "image/png",
+		"images/logo-144.png" : "image/png",
+		"images/logo-64.png" : "image/png",
+		"images/logo-1.png" : "image/png",
+		"images/bg-1.jpg" : "image/jpeg",
+		"images/bg-2.jpg" : "image/jpeg",
+		"images/bg-3.jpg" : "image/jpeg",
+		"images/bg-4.png" : "image/png",
+		"images/bg-4-light.png" : "image/png"
+    }
+}
+
